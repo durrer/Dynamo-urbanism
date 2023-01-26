@@ -2247,6 +2247,36 @@
       ],
       "Replication": "Disabled",
       "Description": "Store data passing through this node to the Dynamo file. Return the stored data if the input is null."
+    },
+    {
+      "ConcreteType": "Dynamo.Graph.Nodes.CodeBlockNodeModel, DynamoCore",
+      "NodeType": "CodeBlockNode",
+      "Code": "a;",
+      "Id": "afcfd877c1c547528fe535c4b11ecae3",
+      "Inputs": [
+        {
+          "Id": "fe2a1a20d150479491c534575287525c",
+          "Name": "a",
+          "Description": "a",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "28f0bde56f9f429d9f9c49c1719932db",
+          "Name": "",
+          "Description": "Value of expression at line 1",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Allows for DesignScript code to be authored directly"
     }
   ],
   "Connectors": [
@@ -3336,11 +3366,21 @@
         "Excluded": false,
         "X": 879.41133314659692,
         "Y": 188.35912246929644
+      },
+      {
+        "Name": "Code Block",
+        "ShowGeometry": true,
+        "Id": "afcfd877c1c547528fe535c4b11ecae3",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 7059.0,
+        "Y": 146.0
       }
     ],
     "Annotations": [],
-    "X": -1137.030693761405,
-    "Y": 1060.5065698326907,
-    "Zoom": 0.56206583243610919
+    "X": -3556.0854780821792,
+    "Y": 348.54985572279753,
+    "Zoom": 0.56560753107086026
   }
 }
